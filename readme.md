@@ -67,4 +67,4 @@ Deberás enviar un correo electrónico a talento@kamaytech.com con tu nombre, en
 A continuación, te presentamos algunos enlaces útiles relacionados con la prueba técnica:
 
 - Servidor MongoDB gratuito: [https://cloud.mongodb.com/](https://cloud.mongodb.com/)
-- Hosting gratuito para deploy: [https://railway.app/pricing](https://railway.app)
+- Hosting gratuito para deploy: [https://railway.app](https://railway.app)
