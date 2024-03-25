@@ -28,12 +28,22 @@ El modelo de datos que deberás utilizar para esta prueba técnica es el siguien
     "_id": "ObjectId",
     "name": "string",
     "email": "string",
-    "age": "number"
+    "age": "number",
+    "password":"string"
 }
 
 ```
 
 El campo _id será generado automáticamente por MongoDB al insertar un nuevo documento en la colección.
+El campo password debe ser utilizado para el proceso de autenticacion
+
+
+### Autenticación
+
+Utilizar NestJS Authentication para proteger los endpoints(JWT).
+Solo los usuarios autenticados deben poder crear, actualizar o eliminar usuarios.
+La propiedad password debe ser generada con el algoritmo blowfish base a la propiedad email.
+
 
 ### Operaciones CRUD
 El API deberá implementar las siguientes operaciones CRUD para la colección de documentos:
@@ -43,6 +53,12 @@ El API deberá implementar las siguientes operaciones CRUD para la colección de
 - POST /users: Insertar un nuevo documento en la colección.
 - PUT /users/:id: Actualizar un documento específico de la colección según su _id.
 - DELETE /users/:id: Eliminar un documento específico de la colección según su _id.
+
+
+Implementar la autenticación:
+- POST /auth/login para iniciar sesión.
+
+
 
 ### Subida del código a GitHub
 Deberás crear un repositorio en GitHub para subir el código del API. El repositorio deberá incluir un archivo README.md con instrucciones claras sobre cómo ejecutar y probar el API.
