@@ -42,7 +42,7 @@ El campo password debe ser utilizado para el proceso de autenticacion
 
 Utilizar NestJS Authentication para proteger los endpoints(JWT).
 Solo los usuarios autenticados deben poder crear, actualizar o eliminar usuarios.
-La propiedad password debe ser generada con el algoritmo blowfish base a la propiedad email.
+La propiedad password debe ser generada con el algoritmo blowfish en base a la propiedad email.
 
 
 ### Operaciones CRUD
